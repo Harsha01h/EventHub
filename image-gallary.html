@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Image Gallery - Harsha</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header>
+    <nav>
+      <h1>Harsha</h1>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="layout.html">Layout</a></li>
+        <li><a href="image-gallery.html">Gallery</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="container">
+    <section class="card">
+      <h2>Dynamic Image Gallery</h2>
+      <input type="text" id="imageUrl" placeholder="Enter Image URL" />
+      <button onclick="addImage()">Add Image</button>
+      <div id="gallery" class="gallery-grid"></div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Harsha's Webpage. All rights reserved.</p>
+  </footer>
+
+  <script src="gallery.js"></script>
+</body>
+</html>
